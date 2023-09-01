@@ -4,7 +4,7 @@ import { LandingComponent } from './landing/landing.component';
 import { IndexComponent } from './landing/index/index.component';
 
 const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'mySkills', }
+  { path: '', pathMatch: 'full', redirectTo: 'about', }
 ];
 
 @NgModule({
